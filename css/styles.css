@@ -102,7 +102,7 @@ nav .nav_links li a{
 
 }
 nav .nav_links li a:hover{
-    color:#8f00ff
+    color:#8f00ff;
 }
 
 .container {
@@ -170,6 +170,11 @@ nav .nav_links li a:hover{
     border-radius: 30px;
     border: 2px solid #343434;
     box-shadow: 0 10px 10px -8px #8f00ff;
+}
+.btn-group .btn:hover{
+    background-color: white;
+    color:#8f00ff;
+    border: none;
 }
 .text .social i{
     color:#8f00ff;
@@ -241,5 +246,6 @@ nav .nav_links li a:hover{
         padding: 40px 0px;
     }
 }
+
 
 
