@@ -145,7 +145,7 @@ nav .nav_links li a:hover{
 .text h5 span{
     color: #8f00ff;
     font-size: 15px;
-    text-shadow: 1px 1px 2px #8f00ff;
+    text-shadow: 1px 1px 2px #f5f5f5;
 }
 
 .text h1{
@@ -241,3 +241,4 @@ nav .nav_links li a:hover{
         padding: 40px 0px;
     }
 }
+
