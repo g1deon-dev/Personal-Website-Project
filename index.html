@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></style>
+    <title>Personal Website</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa">E</i>
+                    <div class="logo-text">Elijah Yanto</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav_links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>   
+            </header>
+            <div class="container">
+                <div class="pic">
+                    <img src="images\pic.png" alt="profile pic">
+                </div>
+                <div class="text">
+                    <h5>Hi, I'm <span class="input">Software Engineer</span>
+                    </h5>
+                    <h1>Elijah Yanto</h1>
+                    <p>I'm a first-year BSIT student at Bicol University, aspiring to become a Full-stack Developer, Software Engineer, or Data Scientist. I'm currently building my portfolio and gaining experience by taking on free commissions that align with my skills.</p>
+                    <div class="btn-group">
+                    <a href="#" class="btn">Contact</a>
+                </div>
+
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i> 
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i> 
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i> 
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i> 
+                    </a>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- This is for the script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        // Get the toggle button element
+var togglebtn = document.querySelector(".togglebtn");
+
+// Get the navigation links list (the <ul> element)
+var nav_links = document.querySelector(".nav_links");
+
+// Add an event listener for a 'click' event on the toggle button
+togglebtn.addEventListener("click", function() {
+  // Toggle the 'click' class on the toggle button itself
+  togglebtn.classList.toggle("click");
+  // Toggle the 'open' class on the navigation links list
+  nav_links.classList.toggle("open");
+});
+
+var typed=new Typed(".input",{
+    strings:["Software Engineer", "Fullstack Developer", "Data Scientist", "AI Engineer"],
+    typeSpeed: 100,
+    backSpeed:55,
+    loop: true
+})
+    </script>
+</body>
+</html>
